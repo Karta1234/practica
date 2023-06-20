@@ -130,10 +130,12 @@ font-family: "HandelGothic TL";
 src: url("fonts/HandelGhoticTL.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "helvetica";
     src: url("fonts/helvetica_regular.otf") format("truetype");
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
