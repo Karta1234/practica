@@ -4,6 +4,9 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+.main{
+    width: 100%;
+}
 /**/
 .header{
 
@@ -35,7 +38,7 @@ body{
 
 /*модификаторы элементов слайдера*/
 .slider_position{
-    margin: 0 50px 0 0;
+    margin: 0 50px 0 1px;
 }
 .slider__img_position{
     margin-bottom: 9px;
@@ -96,7 +99,7 @@ body{
         text-align: center;
     }
     .social__item_position{
-        margin: 0 40px 0 0;
+        margin: 0 20px 0 20px;
     }
     .social__item_size{
         width: 85px;
@@ -147,3 +150,5 @@ src: url("fonts/HandelGhoticTL.ttf") format("truetype");
     font-weight: normal;
     font-display: swap;
 }
+
+
