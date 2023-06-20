@@ -9,11 +9,15 @@ body{
 
     margin: 0 auto;
 }
-.header__arrow{
+.header__arrow_position{
     float: left;
     margin-top: 13px;
     margin-right: 10px;
 
+}
+.header__arrow_size{
+    width: 106px;
+    height: 12px;
 }
 
 /**/
@@ -36,7 +40,7 @@ body{
 .slider__img_position{
     margin-bottom: 9px;
 }
-.slider-list__img_main{
+.slider__img_main{
     height: 662px;
     width: 536px;
 }
@@ -93,6 +97,10 @@ body{
     }
     .social__item_position{
         margin: 0 40px 0 0;
+    }
+    .social__item_size{
+        width: 85px;
+        height: 85px;
     }
 
 
