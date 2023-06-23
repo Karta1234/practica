@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Василий Викторович Ленточкин Директор по развитию">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 </head>
 <body class="body background-color_black">
@@ -25,7 +25,9 @@
             <!--блок слайдер-->
 
             <!--все что ниже это элементы блока слайдера-->
-            <img class="slider__img slider__img_main slider__img_position" alt="Фото" src="img/IMG_4004.avif" >
+            <div class="wrap">
+                <img class="slider__img slider__img_main slider__img_position" alt="Фото" src="img/IMG_4004.avif" >
+            </div>
             <div class="slider-list">
                 <img class="slider-list__img slider-list__img_small slider-list__img_position" alt="Фото" src="img/IMG_4006.avif" >
                 <img class="slider-list__img slider-list__img_small slider-list__img_position" alt="Фото" src="img/IMG_4008.avif" >
@@ -85,11 +87,27 @@
 
         <div class="awards content_position">
             <p class="awards__title title_font-family_HandelGothicTL title_font-size">Награды</p>
-            <div>
-                <img class="awards__item awards__item_position" src="img/awards2.avif" alt="Фото награды"  height="466" width="659">
-                <img class="awards__item awards__item_position" src="img/awards1.avif" alt="Фото награды"  height="466" width="329">
-            </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-img-wrap">
+                                <img class="awards__item" src="img/awards2.avif" alt="Фото награды">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-img-wrap">
+                                <img class="awards__item" src="img/awards1.avif" alt="Фото награды">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
         </div>
+        <button class = 'left nav-button'><img src="img/left.svg"></button>
+        <button class = 'right nav-button'><img src="img/right.svg"></button>
     </div>
     <div class="social social_position">
         <a href="#"><img class="social__item social__item_position social__item_size" alt="whatsapp" src="img/social/1.svg"></a>
@@ -100,4 +118,5 @@
 </main>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="scripts.js"></script>

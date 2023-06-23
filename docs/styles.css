@@ -8,6 +8,13 @@
     .block_display_flex{
         display: flex;
     }
+
+    .swiper-img-wrap{
+        margin: 0 auto;
+        width: 100%;
+        height: 500px;
+    }
+
 }
 
 @media screen and (min-width: 376px) and (max-width: 767px) {
@@ -24,7 +31,7 @@
         height: fit-content !important;
     }
     .slider-list__img{
-        width: 29% !important;
+        max-width: 29% !important;
         height: fit-content !important;
     }
     .slider_position{
@@ -34,17 +41,18 @@
     .description_position{
         margin: 0 auto;
     }
-    .awards__item_position{
-        max-width: 150px;
-        width: 100% !important;
-        height: fit-content !important;
-    }
     .social__item_size{
         width: 60px !important;
         height: 60px !important;
     }
     .social_position{
         margin:50px 0 30px 0 !important;
+    }
+
+    .swiper-img-wrap{
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
     }
 }
 
@@ -55,6 +63,17 @@
     body{
         width: 90%;
         margin: 0 auto;
+    }
+    .wrap{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        min-width: 340px;
+    }
+    .small-img-wrap{
+        display: inline;
+        width: 100px ;
+        height: 29% ;
     }
     .slider__img_main{
         width: 94% !important;
@@ -70,11 +89,6 @@
     }
     .description_position{
         margin: 0 auto;
-    }
-    .awards__item_position{
-        max-width: 150px;
-        width: 100% !important;
-        height: fit-content !important;
     }
     .social__item_position{
         margin:0 10px 0 10px !important;
@@ -104,9 +118,13 @@
     .about-content__list{
         padding-left: 20px;
     }
+    .swiper-img-wrap{
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+    }
 }
 /*xdxdxxdxdxdxdxdxdxddxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxd*/
-
 .background-color_black{
     background: #000000;
 }
@@ -212,7 +230,7 @@
 
 }
 .block_padding{
-    padding: 70px 0 70px 0;
+    padding: 70px 0 15px 0;
 }
 .block_background_white{
     background: white;
@@ -250,3 +268,39 @@ src: url("fonts/HandelGhoticTL.ttf") format("truetype");
 }
 
 
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.awards__item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.nav-button{
+    border: none;
+    margin-left: 15px;
+    background: white;
+}
+.right{
+   float: right;
+    margin-right: 15px ;
+}
