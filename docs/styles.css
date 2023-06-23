@@ -1,5 +1,4 @@
 
-/*xdxdxxdxdxdxdxdxdxddxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxd*/
 @media screen and (min-width: 768px) {
     body{
         width: 70%;
@@ -124,11 +123,11 @@
         height: 200px;
     }
 }
-/*xdxdxxdxdxdxdxdxdxddxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxd*/
+
 .background-color_black{
     background: #000000;
 }
-/**/
+
 
 .header__arrow_position{
     float: left;
@@ -141,8 +140,7 @@
     height: 12px;
 }
 
-/**/
-/*модификатор блока верхней части сайта*/
+
 
 .block_font-color_white{
     color: white;
@@ -150,9 +148,7 @@
 .block_position{
     margin: 0 auto 100px;
 }
-/**/
 
-/*модификаторы элементов слайдера*/
 .slider_position{
     margin: 0 50px 0 1px;
 }
@@ -170,9 +166,7 @@
 .slider-list__img_position{
     margin-right: 9px;
 }
-/**/
 
-/*модификаторы элементов описания*/
 
 .description__title_size_m{
     font-size: 86px;
@@ -187,29 +181,16 @@
 .description__text_size_m{
     font-size: 28px;
 }
-/**/
 
-
-
-/*модификаторы блока описания*/
-
-/**/
-
-/*модификаторы блока контента описания*/
 .about-content_color_black{
     color: black;
 }
-/**/
-
-/*модификаторы элементов блока контента описания*/
 
 .about-content__item_font{
     font-size: 20px;
     line-height: 28px;
 }
 
-/**/
-/* соц сети*/
     .social_position{
         margin:100px 0 70px 0;
         text-align: center;
@@ -223,7 +204,7 @@
     }
 
 
-/**/
+
 .content_position{
     margin: 0 auto;
     padding: 0 60px 0 60px;
